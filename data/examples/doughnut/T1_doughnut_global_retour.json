@@ -1,0 +1,235 @@
+{
+ "version": 1,
+ "name": "Test 1 bis · Doughnut global avec retour",
+ "description": "Variante complémentaire de T1. Le projet focal renvoie un flux noté 0,96 vers le Doughnut.",
+ "focal": "s1",
+ "stakeholders": [
+  {
+   "id": "s1",
+   "name": "Improvements",
+   "type": "Équipe interne",
+   "description": "Projet focal : amélioration du transport public par bus (Pereira et al., 2018)",
+   "color": "#f0a24a"
+  },
+  {
+   "id": "s2",
+   "name": "Population",
+   "type": "Bénéficiaire",
+   "description": "Habitants et usagers",
+   "color": "#298ca6"
+  },
+  {
+   "id": "s3",
+   "name": "Local government",
+   "type": "Institution publique",
+   "description": "Mairie, principal décideur",
+   "color": "#8059b9"
+  },
+  {
+   "id": "s4",
+   "name": "Bus operators",
+   "type": "Partenaire",
+   "description": "Entreprises de bus",
+   "color": "#637fa9"
+  },
+  {
+   "id": "s5",
+   "name": "Press",
+   "type": "Autre",
+   "description": "Médias",
+   "color": "#a58042"
+  },
+  {
+   "id": "s6",
+   "name": "Judiciary",
+   "type": "Régulateur",
+   "description": "Contrôle des contrats et des appels d'offres",
+   "color": "#538f8e"
+  },
+  {
+   "id": "s7",
+   "name": "Doughnut",
+   "type": "Régulateur",
+   "description": "Espace sûr et juste de Raworth (plancher social et plafond écologique), émetteur d'exigences",
+   "color": "#2b967f"
+  }
+ ],
+ "flows": [
+  {
+   "id": "f1",
+   "source": "s1",
+   "target": "s2",
+   "name": "Better quality",
+   "score": 0.56,
+   "category": "Performance"
+  },
+  {
+   "id": "f2",
+   "source": "s2",
+   "target": "s3",
+   "name": "Taxes",
+   "score": 0.56,
+   "category": "Économique"
+  },
+  {
+   "id": "f3",
+   "source": "s2",
+   "target": "s3",
+   "name": "Political support",
+   "score": 0.44,
+   "category": "Social"
+  },
+  {
+   "id": "f4",
+   "source": "s2",
+   "target": "s4",
+   "name": "Increased fare revenues",
+   "score": 0.76,
+   "category": "Économique"
+  },
+  {
+   "id": "f5",
+   "source": "s3",
+   "target": "s1",
+   "name": "Decision making",
+   "score": 0.96,
+   "category": "Gestion"
+  },
+  {
+   "id": "f6",
+   "source": "s3",
+   "target": "s1",
+   "name": "Funding for infrastructure",
+   "score": 0.56,
+   "category": "Économique"
+  },
+  {
+   "id": "f7",
+   "source": "s3",
+   "target": "s6",
+   "name": "Competitive tendering",
+   "score": 0.96,
+   "category": "Gestion"
+  },
+  {
+   "id": "f8",
+   "source": "s6",
+   "target": "s1",
+   "name": "Enforcement",
+   "score": 0.56,
+   "category": "Gestion"
+  },
+  {
+   "id": "f9",
+   "source": "s1",
+   "target": "s4",
+   "name": "Attracting passengers",
+   "score": 0.44,
+   "category": "Économique"
+  },
+  {
+   "id": "f10",
+   "source": "s4",
+   "target": "s1",
+   "name": "Funds for fleet and technology",
+   "score": 0.56,
+   "category": "Économique"
+  },
+  {
+   "id": "f11",
+   "source": "s4",
+   "target": "s1",
+   "name": "Political support (operators)",
+   "score": 0.32,
+   "category": "Social"
+  },
+  {
+   "id": "f12",
+   "source": "s1",
+   "target": "s3",
+   "name": "Improved political capital",
+   "score": 0.19,
+   "category": "Social"
+  },
+  {
+   "id": "f13",
+   "source": "s1",
+   "target": "s5",
+   "name": "Project information",
+   "score": 0.56,
+   "category": "Social"
+  },
+  {
+   "id": "f14",
+   "source": "s5",
+   "target": "s3",
+   "name": "Public opinion",
+   "score": 0.32,
+   "category": "Social"
+  },
+  {
+   "id": "f15",
+   "source": "s5",
+   "target": "s2",
+   "name": "Information on changes",
+   "score": 0.56,
+   "category": "Social"
+  },
+  {
+   "id": "f16",
+   "source": "s7",
+   "target": "s1",
+   "name": "Réduire l'empreinte environnementale du projet",
+   "score": 0.96,
+   "category": "Environnemental"
+  },
+  {
+   "id": "f17",
+   "source": "s7",
+   "target": "s4",
+   "name": "Limiter les émissions de la flotte",
+   "score": 0.96,
+   "category": "Environnemental"
+  },
+  {
+   "id": "f18",
+   "source": "s7",
+   "target": "s3",
+   "name": "Respecter les objectifs climat et qualité de l'air",
+   "score": 0.96,
+   "category": "Environnemental"
+  },
+  {
+   "id": "f19",
+   "source": "s7",
+   "target": "s1",
+   "name": "Concevoir un service sûr et accessible",
+   "score": 0.96,
+   "category": "Social"
+  },
+  {
+   "id": "f20",
+   "source": "s7",
+   "target": "s3",
+   "name": "Garantir l'accès et un tarif abordable pour tous",
+   "score": 0.96,
+   "category": "Social"
+  },
+  {
+   "id": "f21",
+   "source": "s7",
+   "target": "s4",
+   "name": "Assurer des conditions de travail décentes",
+   "score": 0.96,
+   "category": "Social"
+  },
+  {
+   "id": "f22",
+   "source": "s1",
+   "target": "s7",
+   "name": "Réduction des émissions et amélioration de l'accès",
+   "score": 0.96,
+   "category": "Environnemental"
+  }
+ ]
+}

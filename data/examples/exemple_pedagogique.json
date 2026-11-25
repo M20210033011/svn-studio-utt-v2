@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "name": "SVN — Exemple pédagogique",
+  "description": "Exemple pédagogique : analyse d'un réseau de transport collectif réunissant quatre parties prenantes et huit flux de valeur.",
+  "focal": "s0",
+  "stakeholders": [
+    {
+      "id": "s0",
+      "name": "Projet",
+      "type": "Projet central",
+      "description": "Projet de transport collectif chargé de coordonner le service.",
+      "color": "#298ca6"
+    },
+    {
+      "id": "s1",
+      "name": "Population",
+      "type": "Bénéficiaire",
+      "description": "Usagers et habitants bénéficiant du service.",
+      "color": "#8059b9"
+    },
+    {
+      "id": "s2",
+      "name": "Mairie",
+      "type": "Institution publique",
+      "description": "Administration municipale et décisions de financement.",
+      "color": "#d58a45"
+    },
+    {
+      "id": "s3",
+      "name": "Opérateurs",
+      "type": "Partenaire",
+      "description": "Exploitants responsables de la réalisation du service de transport.",
+      "color": "#2b967f"
+    }
+  ],
+  "flows": [
+    {
+      "id": "f1",
+      "source": "s0",
+      "target": "s1",
+      "name": "Qualité du service",
+      "score": 0.57,
+      "category": "Performance",
+      "description": ""
+    },
+    {
+      "id": "f2",
+      "source": "s1",
+      "target": "s2",
+      "name": "Soutien et impôts",
+      "score": 0.33,
+      "category": "Économique",
+      "description": ""
+    },
+    {
+      "id": "f3",
+      "source": "s2",
+      "target": "s0",
+      "name": "Décision et financement",
+      "score": 0.57,
+      "category": "Économique",
+      "description": ""
+    },
+    {
+      "id": "f4",
+      "source": "s0",
+      "target": "s3",
+      "name": "Passagers",
+      "score": 0.44,
+      "category": "Social",
+      "description": ""
+    },
+    {
+      "id": "f5",
+      "source": "s3",
+      "target": "s0",
+      "name": "Investissement flotte",
+      "score": 0.56,
+      "category": "Technologique",
+      "description": ""
+    },
+    {
+      "id": "f6",
+      "source": "s1",
+      "target": "s3",
+      "name": "Billets",
+      "score": 0.57,
+      "category": "Économique",
+      "description": ""
+    },
+    {
+      "id": "f7",
+      "source": "s3",
+      "target": "s2",
+      "name": "Respect du contrat",
+      "score": 0.19,
+      "category": "Gestion",
+      "description": ""
+    },
+    {
+      "id": "f8",
+      "source": "s2",
+      "target": "s3",
+      "name": "Subventions",
+      "score": 0.33,
+      "category": "Économique",
+      "description": ""
+    }
+  ]
+}

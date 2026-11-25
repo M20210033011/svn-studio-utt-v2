@@ -1,0 +1,9 @@
+﻿origine;destination;nom;score;categorie;description
+Projet;Population;Qualité du service;0.57;Performance;
+Population;Mairie;Soutien et impôts;0.33;Économique;
+Mairie;Projet;Décision et financement;0.57;Économique;
+Projet;Opérateurs;Passagers;0.44;Social;
+Opérateurs;Projet;Investissement flotte;0.56;Technologique;
+Population;Opérateurs;Billets;0.57;Économique;
+Opérateurs;Mairie;Respect du contrat;0.19;Gestion;
+Mairie;Opérateurs;Subventions;0.33;Économique;
